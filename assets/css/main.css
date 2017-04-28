@@ -1,0 +1,277 @@
+/*import progress*/
+
+.progress {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    border-radius: 290486px;
+    display: block;
+    height: 1rem;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+.progress:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+.progress::-webkit-progress-bar {
+    background-color: #dbdbdb;
+}
+
+.progress::-webkit-progress-value {
+    background-color: #4a4a4a;
+}
+
+.progress::-moz-progress-bar {
+    background-color: #4a4a4a;
+}
+
+.progress.is-white::-webkit-progress-value {
+    background-color: white;
+}
+
+.progress.is-white::-moz-progress-bar {
+    background-color: white;
+}
+
+.progress.is-black::-webkit-progress-value {
+    background-color: #0a0a0a;
+}
+
+.progress.is-black::-moz-progress-bar {
+    background-color: #0a0a0a;
+}
+
+.progress.is-light::-webkit-progress-value {
+    background-color: whitesmoke;
+}
+
+.progress.is-light::-moz-progress-bar {
+    background-color: whitesmoke;
+}
+
+.progress.is-dark::-webkit-progress-value {
+    background-color: #363636;
+}
+
+.progress.is-dark::-moz-progress-bar {
+    background-color: #363636;
+}
+
+.progress.is-primary::-webkit-progress-value {
+    background-color: #00d1b2;
+}
+
+.progress.is-primary::-moz-progress-bar {
+    background-color: #00d1b2;
+}
+
+.progress.is-info::-webkit-progress-value {
+    background-color: #3273dc;
+}
+
+.progress.is-info::-moz-progress-bar {
+    background-color: #3273dc;
+}
+
+.progress.is-success::-webkit-progress-value {
+    background-color: #23d160;
+}
+
+.progress.is-success::-moz-progress-bar {
+    background-color: #23d160;
+}
+
+.progress.is-warning::-webkit-progress-value {
+    background-color: #ffdd57;
+}
+
+.progress.is-warning::-moz-progress-bar {
+    background-color: #ffdd57;
+}
+
+.progress.is-danger::-webkit-progress-value {
+    background-color: #ff3860;
+}
+
+.progress.is-danger::-moz-progress-bar {
+    background-color: #ff3860;
+}
+
+.progress.is-small {
+    height: 0.75rem;
+}
+
+.progress.is-medium {
+    height: 1.25rem;
+}
+
+.progress.is-large {
+    height: 1.5rem;
+}
+
+
+/*end progress @import*/
+
+body {
+    overflow-x: hidden;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    margin: 0;
+    background: rgba(255, 0, 0, 0) !important;
+    border: none !important;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    transition: all 1s;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    font-size: 100%;
+    letter-spacing: 2px;
+}
+
+.navbar-nav>li {
+    float: none;
+    display: inline-block;
+}
+
+.btn-hire {
+    width: 30%;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix+.container-fluid {
+    padding-top: 70px;
+}
+
+.navbar.affix {
+    padding: 0;
+    background-color: #525252 !important;
+    z-index: 2;
+}
+
+.jumbotron {
+    border-radius: 0 !important;
+}
+
+a {
+    color: #777777 !important;
+}
+
+.form-message{
+  display: none;
+}
+
+#home {
+    height: 100vh !important;
+    background: url("../img/header-background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: -40px;
+    margin-bottom: 0;
+}
+
+.center-me {
+    margin-top: 21vh;
+}
+
+.social i {
+    font-size: 50px;
+    padding: 14px;
+}
+
+.foot-social i {
+    font-size: 35px;
+    padding: 14px;
+}
+
+.ld {
+    width: 95%;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+
+.ld i {
+    font-size: 50px;
+}
+
+.lu {
+    width: 100%;
+    position: relative;
+    top: -40px;
+    text-align: center;
+    margin-bottom: -40px;
+}
+
+.lu i {
+    font-size: 50px;
+}
+
+.bb {
+    border-bottom: 2px solid black;
+    width: 100%;
+    display: inline;
+}
+
+.small-pad {
+    padding-bottom: 15px;
+}
+
+.big-e {
+    font-size: 80px;
+}
+
+.mdlt {
+    width: 100% !important;
+    color: white;
+}
+
+.mdl-textfield__input {
+    border-bottom: 1px solid #777777;
+}
+
+.mdl-textfield__label {
+    color: #777777;
+}
+
+#about {
+    padding: 50px 0;
+    background: #2B2B2B;
+    margin: 0;
+}
+
+.fa-circle {
+    font-size: 5px;
+}
+
+#resume {
+    padding: 50px 0;
+}
+
+#contact {
+    background: #2B2B2B;
+    padding: 70px 0;
+}
+
+#footer {
+    background: black;
+    margin: 0 !important;
+    padding: 20px;
+}
