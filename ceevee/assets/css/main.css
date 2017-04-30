@@ -122,6 +122,11 @@
 @media(max-width: 768px){
   #home{
     min-height: 108vh !important;
+    background: url("../img/header-background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
   .navbar {
       margin: 0;
