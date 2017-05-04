@@ -115,37 +115,12 @@
 
 /*end progress @import*/
 
-/* iphone */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	#home{
-    background: url("../img/header-background.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    max-width: 100%;
-  }
-}
-
-/* ipad */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-	#home{
-    background: url("../img/header-background.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    max-width: 100%;
-  }
-}
-
-
 
 
 @media(max-width: 768px){
   #home{
     min-height: 108vh !important;
-    background: url("../img/header-background.jpg") no-repeat center center fixed;
+    background: url("../img/mobile-header-background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
