@@ -1,0 +1,21 @@
+<svg width="16" height="20" viewBox="0 0 16 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Shape Copy 3.1</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-23335 -15468)">
+<g id="Shape Copy 3.1" filter="url(#filter0_d)">
+<use xlink:href="#path0_fill" transform="translate(23338 15469)" fill="#00CB00"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" filterUnits="userSpaceOnUse" x="23335" y="15468" width="16" height="20" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 0"/>
+<feOffset dx="-1" dy="1"/>
+<feGaussianBlur stdDeviation="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.268937 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<path id="path0_fill" d="M 5.71271 0C 2.52992 0 0 2.47979 0 5.59953C 0 9.75918 5.71271 15.9986 5.71271 15.9986C 5.71271 15.9986 11.4254 9.75918 11.4254 5.59953C 11.4254 2.47979 8.89551 0 5.71271 0Z"/>
+</defs>
+</svg>
